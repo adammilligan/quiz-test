@@ -1,0 +1,61 @@
+.quiz_modal {
+    width: 576px;
+    height: 392px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 32px;
+}
+
+.modal_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.modal_header_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #383838;
+}
+
+.modal_header_step {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #9B9B9B;
+}
+
+.modal_questions {
+    display: flex;
+    flex-wrap: wrap;
+    height: 184px;
+    width: 512px;
+}
+
+.modal_nav_btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-right: 8px;
+}
+
+.modal_btn {
+    width: 108px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+}
+
+.modal_btn_next {
+    background: #383838;
+    border-radius: 12px;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+.modal_btn_prev {
+    display: none;
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-weight: 400;
+  font-family: Onest;
+  src: url("../fonts/OnestRegular1602-hint.woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("../fonts/OnestMedium1602-hint.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("../fonts/OnestLight1602-hint.woff");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: Onest;
+  src: url("../fonts/OnestBold1602-hint.woff");
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Onest', serif;
+  font-weight: 400;
+}
+
+.quiz {
+  display: flex;
+  width: 1216px;
+  height: 456px;
+  background-color: #CAFFA0;
+  border-radius: 24px;
+  margin-top: 100px;
+}
+
+.quiz_description, .quiz_modal {
+  width: 50%;
+  margin: 32px;
+}
+
+
+
+
+
+
