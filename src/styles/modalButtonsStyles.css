@@ -1,0 +1,41 @@
+.modal_nav_btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-right: 8px;
+}
+
+.modal_btn {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 108px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+}
+
+.modal_btn_next {
+    background: #383838;
+    border-radius: 12px;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+.modal_btn_next_img{
+    background-image: url("../images/rightArrow.png");
+    width: 7px;
+    height: 12px;
+}
+
+.modal_btn_prev_img{
+    background-image: url("../images/leftArrow.png");
+    width: 7px;
+    height: 12px;
+}
+
+.hidden {
+    display: none;
+}
