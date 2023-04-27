@@ -34,3 +34,8 @@
     border-width: 7px;
     border-color: #383838;
 }
+
+.question_radio_big > input:checked + .question_label {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
