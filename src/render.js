@@ -143,6 +143,8 @@ const renderForm = (state, elements) => {
       answers: state.answers,
       personal: state.personal,
     }
+    console.log(result)
+    alert('Результирующий объект смотри в консольлоге')
   })
 }
 
